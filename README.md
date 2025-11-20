@@ -1,6 +1,8 @@
 # Automated Subject Indexing tool 
 This tool automatically suggests keywords from a controlled vocabulary based on the content of the metadata of a dataset. The input is a dataset DOI and the output is a .csv file with the suggested terms and corresponding URIs. 
 
+Current status: prototype, in active development. 
+
 ## Table of Contents
 - [Automated Subject Indexing tool](#automated-subject-indexing-tool)
   - [Table of Contents](#table-of-contents)
