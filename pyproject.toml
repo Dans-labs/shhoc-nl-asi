@@ -1,2 +1,0 @@
-[project.scripts]
-tool = "tool.cli:main"
