@@ -33,14 +33,14 @@ LLMs are useful approach for summarizing the contents of a dataset in keywords, 
 4. Install the dependencies: `pip install -r requirements.txt`
 5. Retrieve a User Access Token with at least Inference permissions from [huggingface](https://huggingface.co/settings/tokens)
 2. Add the token to your environment by running `export MY_API_KEY="your-key-here"` in your terminal. 
-3. Run `generate_sbert_lookup_dict.py` to create a lookup dictionary of AATC terms as embeddings. It should be in the `data` folder. This only has to be done once. 
-4. Download the flat representation of AAT concepts [here](https://github.com/DANS-KNAW/Getty-AAT-Concepts/blob/main/aatc.ttl) (keep the name `aatc.ttl`), place it in the `data` folder. 
+3. Download the flat representation of AAT concepts [here](https://github.com/DANS-KNAW/Getty-AAT-Concepts/blob/main/aatc.ttl) (keep the name `aatc.ttl`), place it in the `data` folder. 
+4. Run `generate_sbert_lookup_dict.py` to create a lookup dictionary of AATC terms as embeddings. It should be in the `data` folder. This only has to be done once. 
+
 
 
 ## Usage
-
-5. Run the project: `python3 src/pipeline.py`
-6. Modify the `config.py` file to customize settings and models. 
+1. Run the project: `python3 src/pipeline.py`
+2. Modify the `config.py` file to customize settings and models. 
 
 ## Configuration
 You can customize the following settings in `src/configs/default.yaml`: 
